@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="footer">
+    <div class="col">
+      <h2>Хватит Думать!<br>
+        <strong>Доставим заказ за 30 минут!</strong></h2>
+      <p>Мы гарантированно доставим вашу пиццу за 30 минут с момента оформления заказа. Если мы опоздаем даже на 1
+        минуту
+        - вы получаете весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы гордимся нашим сервисом и сделаем
+        всё, чтобы наш клиент был доволен и не остался голодный!</p>
+
+    </div>
+    <div class="col">
+      <form [formGroup]="orderForm" (ngSubmit)="onSubmit()">
+
+        <input id="name" formControlName="name" (keydown)="blockDot($event)" placeholder="Ваше имя">
+
+        <input id="email" formControlName="address" (keydown)="blockDot($event)" placeholder="Адрес доставки">
+
+        <input id="phone" formControlName="phone" (keydown)="blockDot($event)" type="text" placeholder="Телефон"
+               mask="+0 (000) 000 00-00">
+        <button type="submit" [disabled]="orderForm.invalid">Оформить заказ</button>
+      </form>
+    </div>
+    <img class="col" src="/assets/pizzzzza-slice.png">
+  </div>
+</div>

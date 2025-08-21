@@ -1,0 +1,102 @@
+h1 {
+  font-family: "Muller ExtraBold";
+  color: #b99150;
+  font-size: 45px;
+  margin-top: 0;
+
+  strong {
+    color: #ffaf18;
+  }
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  margin: 1rem 0;
+  .item {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+
+    img {
+      width: 60px;
+      height: 60px;
+      margin: auto;
+      padding: 10px;
+    }
+
+    span {
+      font-family: "Muller ExtraBold";
+      color: #ffaf18;
+      font-size: 16px;
+    }
+
+    p {
+      font-family: "Muller Regular";
+      color: #b99150;
+      font-size: 16px;
+      margin: 5px 0;
+    }
+  }
+}
+
+.first-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 3rem 2rem;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+
+  }
+  button {
+    width: auto;
+  }
+  img{
+    margin: 1rem;
+  }
+}
+
+.second-section {
+  margin: 3rem 2rem;
+
+  h2 {
+    font-size: 35px;
+    color: #bd985c;
+    text-align: center;
+    font-family: "Muller Bold";
+  }
+}
+
+.pizza-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px 10px;
+
+  .pizza-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 2px 7px 1px rgba(0.1, 0.1, 0.1, 0.1);
+    padding: 1rem;
+    img{
+      cursor: pointer;
+    }
+    span {
+      font-family: "Muller Bold";
+      color: #382400;
+      font-size: 18px;
+      margin-top: 5px;
+    }
+
+    p {
+      font-family: "Muller Regular";
+      text-align: center;
+      font-size: 14px;
+    }
+
+
+  }
+}

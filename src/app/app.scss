@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Muller Regular";
+  src: url("https://db.onlinewebfonts.com/t/daf2f572726b3bd31ae892672a2d2015.eot");
+  src: url("https://db.onlinewebfonts.com/t/daf2f572726b3bd31ae892672a2d2015.eot?#iefix") format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/daf2f572726b3bd31ae892672a2d2015.woff2") format("woff2"),
+  url("https://db.onlinewebfonts.com/t/daf2f572726b3bd31ae892672a2d2015.woff") format("woff"),
+  url("https://db.onlinewebfonts.com/t/daf2f572726b3bd31ae892672a2d2015.ttf") format("truetype"),
+  url("https://db.onlinewebfonts.com/t/daf2f572726b3bd31ae892672a2d2015.svg#Muller W00 Regular") format("svg");
+}
+
+@font-face {
+  font-family: "Muller Black";
+  src: url("https://db.onlinewebfonts.com/t/c1f5126c5b7a4ded418b4eff96731b2a.eot");
+  src: url("https://db.onlinewebfonts.com/t/c1f5126c5b7a4ded418b4eff96731b2a.eot?#iefix") format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/c1f5126c5b7a4ded418b4eff96731b2a.woff2") format("woff2"),
+  url("https://db.onlinewebfonts.com/t/c1f5126c5b7a4ded418b4eff96731b2a.woff") format("woff"),
+  url("https://db.onlinewebfonts.com/t/c1f5126c5b7a4ded418b4eff96731b2a.ttf") format("truetype"),
+  url("https://db.onlinewebfonts.com/t/c1f5126c5b7a4ded418b4eff96731b2a.svg#Muller W00 Black") format("svg");
+}
+
+@font-face {
+  font-family: "Muller ExtraBold";
+  src: url("https://db.onlinewebfonts.com/t/85eb01cf0c7bbcba9eda8d82a810bad6.eot");
+  src: url("https://db.onlinewebfonts.com/t/85eb01cf0c7bbcba9eda8d82a810bad6.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/85eb01cf0c7bbcba9eda8d82a810bad6.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/85eb01cf0c7bbcba9eda8d82a810bad6.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/85eb01cf0c7bbcba9eda8d82a810bad6.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/85eb01cf0c7bbcba9eda8d82a810bad6.svg#Muller W00 ExtraBold")format("svg");
+}
+@font-face {
+  font-family: "Muller Bold";
+  src: url("https://db.onlinewebfonts.com/t/b3e003fc99ce4e202c1e3ed2d63aa157.eot");
+  src: url("https://db.onlinewebfonts.com/t/b3e003fc99ce4e202c1e3ed2d63aa157.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/b3e003fc99ce4e202c1e3ed2d63aa157.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/b3e003fc99ce4e202c1e3ed2d63aa157.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/b3e003fc99ce4e202c1e3ed2d63aa157.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/b3e003fc99ce4e202c1e3ed2d63aa157.svg#Muller W00 Bold")format("svg");
+}
+* {
+  font-family: "Muller Regular", "Muller Black","Muller ExtraBold","Muller Bold", sans-serif;
+}
+

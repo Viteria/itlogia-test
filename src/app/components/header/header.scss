@@ -1,0 +1,58 @@
+.header {
+  width: 100%;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0.5rem 1rem;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+span {
+  font-family: "Muller Black", serif;
+  font-size: 24px;
+  color: #ffc468;
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 1rem;
+  font-family: "Muller Regular", serif;
+
+  a {
+    margin: 1rem;
+    color: #a46b00;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}
+
+.logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+

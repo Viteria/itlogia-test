@@ -1,0 +1,70 @@
+<app-header></app-header>
+<div class="container">
+  <div class="first-section">
+    <div>
+      <h1>Самая вкусная пицца в мире
+        <br><strong>только в Pizza Cheff</strong></h1>
+      <div class="items-container">
+        <div class="item">
+          <img class="icon" src="/assets/hop.png">
+          <div>
+            <span>Лучшее Тесто</span>
+            <p>Мы создаем тесто только из
+              отборной итальянской муки
+              наивысшего качества</p>
+          </div>
+
+        </div>
+        <div class="item">
+          <img class="icon" src="/assets/kitchen-pack.png">
+          <div>
+            <span>Лучшие повара</span>
+            <p>Пиццы готовят самые
+              профессиональные
+              итальянские повара</p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="icon" src="/assets/seo-and-web.png">
+          <div>
+            <span>Гарантия качества</span>
+            <p>Наша пиццерия получила
+              множество наград и
+              признаний по всему миру</p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="icon" src="/assets/holidays.png">
+          <div>
+            <span> Отборные рецепты</span>
+            <p>Мы используем рецепты
+              от мировых лидеров
+              в изготовлении пиццы</p>
+          </div>
+        </div>
+      </div>
+      <button>Выбрать пиццу</button>
+    </div>
+    <img src="/assets/pizza_big.png" class="big-pizza-img" alt="big pizza">
+  </div>
+  <div class="second-section">
+    <h2>Выберите свою любимую пиццу</h2>
+    <div class="pizza-list">
+      @for (pizza of pizzaList; track pizza.name; ) {
+        <div class="pizza-card">
+          <img src='{{ "assets/" + pizza.image }}' (click)="openImage(pizza.image)">
+          <span>{{ pizza.name }}</span>
+          <p>{{ pizza.ingredients.join(', ') }}</p>
+          <button>В корзину</button>
+        </div>
+      }
+    </div>
+    @if (selectedImage) {
+      <app-img-viewer
+        [imageUrl]="selectedImage"
+        (closed)="closeImage()"></app-img-viewer>
+    }
+
+  </div>
+</div>
+<app-footer></app-footer>
